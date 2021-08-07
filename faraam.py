@@ -5,6 +5,13 @@ import time
 import random
 import sys
 import os
+Shayeb = requests.get("https://pastebin.com/raw/7ks8ES5X")
+password = input('   \033[1;35m    TOOL PASSWORD: ')
+if password == " OK " :
+  sys.exit()
+if password in str(Shayeb.text):
+  print(" FIRST STEP Is Done. Logged in Successfully as ")
+  print("Please Wait 5 Minutes, All Packages Are Checking.....")
 user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36'
 user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55'
 user_agent = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Vivaldi/4.1'
